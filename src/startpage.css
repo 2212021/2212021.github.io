@@ -4,11 +4,11 @@ body {
 }
 
 h1 {
-  font-size: 1.6em; 
+  font-size: 2em; 
 }
 
 input {
-  font-size: 1.2em;
+  font-size: 1.6em;
   border: solid 0.01em;
   border-radius: 2em;
   padding: 1em;
