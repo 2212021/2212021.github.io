@@ -1,7 +1,7 @@
 @import url("./fonts.css");
 
 body {
-  background-color: #F0F8FF;
+  background-color: #FFFFFF;
   padding: 5em;
 }
 
@@ -17,9 +17,9 @@ input {
   border: solid 0.01em;
   border-radius: 2em;
   padding: 1em;
-  background-color: #f5faff;
+  background-color: #FFFFFF;
 }
 
 input:hover {
-  background-color: #FFFFFF;
+  background-color: #F0F8FF;
 }
