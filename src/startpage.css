@@ -12,6 +12,7 @@ h1 {
 }
 
 input {
+  font-family: 'Roboto', sans-serif;
   font-size: 1.6em;
   border: solid 0.01em;
   border-radius: 2em;
