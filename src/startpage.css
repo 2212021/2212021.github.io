@@ -1,5 +1,5 @@
 body {
-  background-color: #69b5d1;
+  background-color: #F0F8FF;
   padding: 5em;
 }
 
@@ -13,4 +13,5 @@ input {
   border: solid 0.01em;
   border-radius: 2em;
   padding: 1em;
+  background-color: #F0F8FF;
 }
