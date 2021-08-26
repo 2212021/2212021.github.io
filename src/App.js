@@ -28,7 +28,7 @@ class Menu extends Component {
     return (
       <div class='menu' onMouseEnter={this.show} onMouseLeave={this.hide}>
         <div onClick={this.action1}><h2 class='menuitem'>Item1</h2></div>
-        <div><form action="#"><input class='menuitem' type='submit' value="Item1"/></form></div>
+        <div onClick={this.action1}><h2 class='menuitem'>Item1</h2></div>
       </div>
     );
   }
