@@ -5,6 +5,10 @@ body {
   padding: 5em;
 }
 
+div {
+  margin: auto;
+}
+
 h1 {
   font-family: 'Kaisei Decol', 'Roboto', sans-serif;
   font-size: 3em;
