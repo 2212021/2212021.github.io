@@ -9,13 +9,16 @@
 .menu {
   width: 8em;
   background-color: #a0c4e8;
+  margin-left: auto;
 }
 
 .menubutton {
   color: #072d59;
   width: 8em;
   padding-bottom: 0.1em;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
 }
 
 .menubutton:hover {
