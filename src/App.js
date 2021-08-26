@@ -14,7 +14,7 @@ class Menu extends Component {
   menuhead = function() {
     return (
       <div onClick={this.toggle}>
-        <h2>MENU</h2>
+        <h2 id='menubutton'>MENU</h2>
       </div>
     );
   }
