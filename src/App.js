@@ -1,4 +1,3 @@
-import ReactDOM from 'react-dom';
 import React, {Component} from 'react';
 import './App.css';
 
@@ -21,7 +20,7 @@ class Menu extends Component {
   }
   menubody = function() {
     return (
-      <div onMouseLeave={this.hide}>
+      <div>
         <ul>
           <a href="#"><li>item1</li></a>
           <a href="#"><li>item2</li></a>
