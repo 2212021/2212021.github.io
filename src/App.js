@@ -19,7 +19,7 @@ class Menu extends Component {
   }
   menuhead = function() {
     return (
-      <div class='menubutton' onMouseEnter={this.show} onMouseLeave={this.hide}>
+      <div class='menubutton' onMouseEnter={this.show} onMouseLeave={this.hide} onClick={this.hide}>
         <h2>MENU</h2>
       </div>
     );
