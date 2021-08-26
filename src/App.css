@@ -28,8 +28,8 @@
 .menuitem {
   background-color: #a0c4e8;
   border: none;
-  width: 6em;
-  padding: 0.2em;
+  width: 7.8em;
+  padding: 0.1em;
   margin: 0;
 }
 
@@ -42,4 +42,3 @@ a {
   cursor: default;
   text-decoration: none;
 }
-
