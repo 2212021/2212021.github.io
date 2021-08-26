@@ -13,12 +13,9 @@
 }
 
 .menubutton {
-  color: #072d59;
   width: 8em;
   padding-bottom: 0.1em;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: auto;
+  margin: 0;
 }
 
 .menubutton:hover {
@@ -26,6 +23,10 @@
 }
 
 .menuitem {
+  background-color: #a0c4e8;
+  border: none;
+  height: 3em;
+  width: 9.5em;
   padding: 0.2em;
   margin: 0;
 }
