@@ -34,12 +34,14 @@ class Menu extends Component {
         <div>
           {this.menuhead()}
           {this.menubody()}
+          <h3>Text</h3>
         </div>
       );
     } else {
       return (
         <div>
           {this.menuhead()}
+          <h3>Text</h3>
         </div>
       );
     }
