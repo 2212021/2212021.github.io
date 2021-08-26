@@ -12,6 +12,7 @@
 }
 
 .menubutton {
+  color: #072d59;
   width: 8em;
   padding-bottom: 0.1em;
   margin: 0;
@@ -31,7 +32,7 @@
 }
 
 a {
-  color: inherit;
+  color: #072d59;
   cursor: default;
   text-decoration: none;
 }
