@@ -47,7 +47,6 @@ class Menu extends Component {
 }
 
 function App() {
-  console.log("App");
   return (
     <div className="App">
       <Menu/>
