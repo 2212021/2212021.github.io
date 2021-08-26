@@ -8,23 +8,24 @@ class Menu extends Component {
       show: false
     };
   }
-  toggle = () => {
-    this.setState({show:!this.state.show});
+  show = () => {
+    this.setState({show:true});
+  }
+  hide = () => {
+    this.setState({show:false});
   }
   menuhead = function() {
     return (
-      <div onClick={this.toggle}>
-        <h2 id='menubutton'>MENU</h2>
+      <div class='menubutton' onMouseEnter={this.show} onMouseLeave={this.hide}>
+        <h2>MENU</h2>
       </div>
     );
   }
   menubody = function() {
     return (
-      <div>
-        <ul>
-          <a href="#"><li>item1</li></a>
-          <a href="#"><li>item2</li></a>
-        </ul>
+      <div class='menu' onMouseEnter={this.show} onMouseLeave={this.hide}>
+        <div><a href="#"><h2 class='menuitem'>Item1</h2></a></div>
+        <div><a href="#"><h2 class='menuitem'>Item2</h2></a></div>
       </div>
     );
   }
@@ -34,14 +35,12 @@ class Menu extends Component {
         <div>
           {this.menuhead()}
           {this.menubody()}
-          <h3>Text</h3>
         </div>
       );
     } else {
       return (
         <div>
           {this.menuhead()}
-          <h3>Text</h3>
         </div>
       );
     }
