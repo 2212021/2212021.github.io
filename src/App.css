@@ -16,6 +16,8 @@
 
 .menubutton {
   width: 8em;
+  border: solid 1px #000000;
+  border-radius: 2em;
   padding-bottom: 0.1em;
   margin-top: 0;
   margin-bottom: 0;
