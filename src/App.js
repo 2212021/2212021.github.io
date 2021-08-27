@@ -32,6 +32,23 @@ class Menu extends Component {
       </div>
     );
   }
+  menu = function() {
+    if (this.state.show) {
+      return (
+        <div style={{visibility:visible}}>
+          {this.menuhead()}
+          {this.menubody()}
+        </div>
+      );
+    } else {
+      return (
+        <div style={{visibility:hidden}}>
+          {this.menuhead()}
+          {this.centraldiv()}
+        </div>
+      );
+    }
+  }
   centraldiv = function() {
     return (
       <div class='center'>
