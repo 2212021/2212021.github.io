@@ -10,7 +10,7 @@
 
 .menu {
   width: 7.9em;
-  border: solid 1px #888888;
+  border: none;
   border-radius: 1.5em;
   box-shadow: 10px 10px 8px #888888;
   margin-left: auto;
