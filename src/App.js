@@ -26,7 +26,7 @@ class Menu extends Component {
   }
   menubody = function() {
     return (
-      <div class='menu' onMouseEnter={this.show} onMouseLeave={this.hide}>
+      <div class='menu' style=onMouseEnter={this.show} onMouseLeave={this.hide}>
         <div class='menuitem' onClick={this.action1}><h2>Item1</h2></div>
         <div class='menuitem' onClick={this.action1}><h2>Item2</h2></div>
       </div>
@@ -35,15 +35,15 @@ class Menu extends Component {
   render = function() {
     if (this.state.show) {
       return (
+        {this.menuhead()}
         <div style={{visibility:visible}}>
-          {this.menuhead()}
           {this.menubody()}
         </div>
       );
     } else {
       return (
+        {this.menuhead()}
         <div style={{visibility:hidden}}>
-          {this.menuhead()}
           {this.menubody()}
         </div>
       );
