@@ -55,7 +55,7 @@ class CentralDiv extends Component {
   centraldiv = function() {
     return (
       <div class='center'>
-        
+        <h1>Welcome!</h1>
       </div>
     );
   }
