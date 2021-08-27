@@ -32,18 +32,27 @@ class Menu extends Component {
       </div>
     );
   }
+  centraldiv = function() {
+    return (
+      <div class='center'>
+        
+      </div>
+    );
+  }
   render = function() {
     if (this.state.show) {
       return (
         <div>
           {this.menuhead()}
           {this.menubody()}
+          {this.centraldiv()}
         </div>
       );
     } else {
       return (
         <div>
           {this.menuhead()}
+          {this.centraldiv()}
         </div>
       );
     }
