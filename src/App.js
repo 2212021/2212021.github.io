@@ -32,7 +32,7 @@ class Menu extends Component {
       </div>
     );
   }
-  menu = function() {
+  render = function() {
     if (this.state.show) {
       return (
         <div style={{visibility:visible}}>
@@ -44,11 +44,14 @@ class Menu extends Component {
       return (
         <div style={{visibility:hidden}}>
           {this.menuhead()}
-          {this.centraldiv()}
+          {this.menubody()}
         </div>
       );
     }
   }
+}
+
+class CentralDiv extends Component {
   centraldiv = function() {
     return (
       <div class='center'>
@@ -57,22 +60,7 @@ class Menu extends Component {
     );
   }
   render = function() {
-    if (this.state.show) {
-      return (
-        <div>
-          {this.menuhead()}
-          {this.menubody()}
-          {this.centraldiv()}
-        </div>
-      );
-    } else {
-      return (
-        <div>
-          {this.menuhead()}
-          {this.centraldiv()}
-        </div>
-      );
-    }
+    
   }
 }
 
@@ -80,6 +68,7 @@ function App() {
   return (
     <div className="App">
       <Menu/>
+      <CentralDiv/>
     </div>
   );
 }
