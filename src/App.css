@@ -7,7 +7,7 @@
 }
 
 .menu {
-  width: 8em;
+  width: 7.9em;
   background-color: #a0c4e8;
   box-shadow: 10px 10px 8px #888888;
   margin-left: auto;
@@ -28,7 +28,7 @@
 .menuitem {
   background-color: #a0c4e8;
   border: none;
-  width: 8em;
+  width: 7.9em;
   padding: 0.1em;
   margin: 0;
 }
