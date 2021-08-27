@@ -10,7 +10,8 @@
 
 .menu {
   width: 7.9em;
-  border: solid 1px #a0c4e8;
+  border: solid 1px #888888;
+  border-radius: 1.5em;
   box-shadow: 10px 10px 8px #888888;
   margin-left: auto;
 }
@@ -32,6 +33,7 @@
 
 .menuitem {
   border: none;
+  border-radius: 1.5em;
   width: 7.9em;
   padding: 0.1em;
   margin: 0;
