@@ -8,6 +8,11 @@
   cursor: default;
 }
 
+@keyframes hover {
+  from: {background-color: #000000};
+  to: {background-color: #888888}; 
+}
+
 .menu {
   width: 7.9em;
   border: solid 1px #888888;
