@@ -43,6 +43,11 @@
   background-color: #888888;
 }
 
+.center {
+  text-align: center;
+  margin: auto;
+}
+
 a {
   color: #072d59;
   cursor: default;
