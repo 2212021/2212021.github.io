@@ -36,6 +36,7 @@
   border: none;
   border-radius: 1.5em;
   transition: background-color 200ms;
+  text-align: center;
   width: 7.9em;
   padding: 0.1em;
   margin: 0;
@@ -48,6 +49,10 @@
 .center {
   text-align: center;
   margin: auto;
+}
+
+input {
+  font-size: 1.2em;
 }
 
 a {
