@@ -9,10 +9,10 @@
 }
 
 .menu {
-  width: 7.9em;
+  width: 8em;
   border: solid 1px #D3D3D3;
   border-radius: 1.5em;
-  box-shadow: 10px 10px 8px #D3D3D3;
+  box-shadow: 10px 10px 8px #888888;
   margin-left: auto;
 }
 
