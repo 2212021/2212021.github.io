@@ -35,7 +35,7 @@
 .menuitem {
   border: none;
   border-radius: 1.5em;
-  transition: background-color 1s;
+  transition: background-color 200ms;
   width: 7.9em;
   padding: 0.1em;
   margin: 0;
