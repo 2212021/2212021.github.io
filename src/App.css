@@ -8,11 +8,6 @@
   cursor: default;
 }
 
-@keyframes hover {
-  from: {background-color: #000000;}
-  to: {background-color: #888888;}
-}
-
 .menu {
   width: 7.9em;
   border: solid 1px #888888;
@@ -25,6 +20,7 @@
   width: 8em;
   border: solid 1px #888888;
   border-radius: 1.5em;
+  transition: background-color 1s;
   text-align: center;
   padding-bottom: 0.1em;
   margin-top: 0;
@@ -33,21 +29,20 @@
 }
 
 .menubutton:hover {
-  animation-name: hover;
-  animation-duration: 1s;
+  background-color: #888888;
 }
 
 .menuitem {
   border: none;
   border-radius: 1.5em;
+  transition: background-color 1s;
   width: 7.9em;
   padding: 0.1em;
   margin: 0;
 }
 
 .menuitem:hover {
-  animation-name: hover;
-  animation-duration: 1s;
+  background-color: #888888;
 }
 
 .center {
