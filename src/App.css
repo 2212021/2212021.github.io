@@ -9,8 +9,8 @@
 }
 
 @keyframes hover {
-  from: {background-color: #000000};
-  to: {background-color: #888888}; 
+  from: {background-color: #000000;}
+  to: {background-color: #888888;}
 }
 
 .menu {
