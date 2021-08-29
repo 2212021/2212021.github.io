@@ -25,12 +25,22 @@ class Menu extends Component {
     );
   }
   menubody = function() {
-    return (
-      <div class='menu' style={{visibility:{this.show}}} onMouseEnter={this.show} onMouseLeave={this.hide}>
-        <div class='menuitem' onClick={this.action1}><h2>Item1</h2></div>
-        <div class='menuitem' onClick={this.action1}><h2>Item2</h2></div>
-      </div>
-    );
+    if (this.state.show) {
+	    return (
+	      <div class='menu' style={{visibility:'visible'}} onMouseEnter={this.show} onMouseLeave={this.hide}>
+		<div class='menuitem' onClick={this.action1}><h2>Item1</h2></div>
+		<div class='menuitem' onClick={this.action1}><h2>Item2</h2></div>
+	      </div>
+	    );
+    }
+    else {
+	    return (
+	      <div class='menu' style={{visibility:'hidden'}} onMouseEnter={this.show} onMouseLeave={this.hide}>
+		<div class='menuitem' onClick={this.action1}><h2>Item1</h2></div>
+		<div class='menuitem' onClick={this.action1}><h2>Item2</h2></div>
+	      </div>
+	    );
+    }
   }
   render = function() {
       return (
@@ -39,8 +49,7 @@ class Menu extends Component {
           {this.menubody()}
         </div>
       );
-    }
-  }
+   }
 }
 
 class CentralDiv extends Component {
@@ -52,7 +61,7 @@ class CentralDiv extends Component {
     );
   }
   render = function() {
-    
+    return this.centraldiv();
   }
 }
 
