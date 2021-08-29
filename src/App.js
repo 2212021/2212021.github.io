@@ -1,6 +1,14 @@
 import React, {Component} from 'react';
 import './App.css';
 
+function help() {
+  alert("Please click on the color hex code in the middle of the screen to choose a color and your desired color's hex code will appear in the box.");
+}
+
+function about() {
+  alert("https://github.com/2212021/Color-Hex-Codes\n\nColor chooser by jcolor.com\n");
+}
+
 class Menu extends Component {
   constructor(props) {
     super(props);
@@ -14,13 +22,11 @@ class Menu extends Component {
   hide = () => {
     this.setState({show:false});
   }
-  action1 = () => {
-    alert("Hi!"); 
-  }
+  
   menuhead = function() {
     return (
       <div class='menubutton' onMouseEnter={this.show} onMouseLeave={this.hide} onClick={this.hide}>
-        <h2>MENU</h2>
+        <h2>?</h2>
       </div>
     );
   }
@@ -28,16 +34,16 @@ class Menu extends Component {
     if (this.state.show) {
 	    return (
 	      <div class='menu' style={{visibility:'visible'}} onMouseEnter={this.show} onMouseLeave={this.hide}>
-		<div class='menuitem' onClick={this.action1}><h2>Item1</h2></div>
-		<div class='menuitem' onClick={this.action1}><h2>Item2</h2></div>
+		<div class='menuitem' onClick={help}><h2>Help</h2></div>
+		<div class='menuitem' onClick={about}><h2>About</h2></div>
 	      </div>
 	    );
     }
     else {
 	    return (
 	      <div class='menu' style={{visibility:'hidden'}} onMouseEnter={this.show} onMouseLeave={this.hide}>
-		<div class='menuitem' onClick={this.action1}><h2>Item1</h2></div>
-		<div class='menuitem' onClick={this.action1}><h2>Item2</h2></div>
+		<div class='menuitem'><h2>none</h2></div>
+		<div class='menuitem'><h2>none</h2></div>
 	      </div>
 	    );
     }
@@ -56,7 +62,8 @@ class CentralDiv extends Component {
   centraldiv = function() {
     return (
       <div class='center'>
-        <h1>Welcome!</h1>
+        <h1>Color Hex Viewer</h1>
+        <input value='#FFFFFF' data-jscolor='{}'/>
       </div>
     );
   }
