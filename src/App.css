@@ -10,15 +10,15 @@
 
 .menu {
   width: 7.9em;
-  border: solid 1px #888888;
+  border: solid 1px #D3D3D3;
   border-radius: 1.5em;
-  box-shadow: 10px 10px 8px #888888;
+  box-shadow: 10px 10px 8px #D3D3D3;
   margin-left: auto;
 }
 
 .menubutton {
   width: 8em;
-  border: solid 1px #888888;
+  border: solid 1px #D3D3D3;
   border-radius: 1.5em;
   transition: background-color 1s;
   text-align: center;
@@ -29,7 +29,7 @@
 }
 
 .menubutton:hover {
-  background-color: #888888;
+  background-color: #D3D3D3;
 }
 
 .menuitem {
@@ -42,7 +42,7 @@
 }
 
 .menuitem:hover {
-  background-color: #888888;
+  background-color: #D3D3D3;
 }
 
 .center {
