@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 
+
 function help() {
   alert("Please click on the color hex code in the middle of the screen to choose a color and your desired color's hex code will appear in the box.");
 }
