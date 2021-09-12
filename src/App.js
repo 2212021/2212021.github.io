@@ -63,7 +63,7 @@ class CentralDiv extends Component {
     return (
       <div class='center'>
         <h1>Color Hex Viewer</h1>
-        <input value='#FFFFFF80' data-jscolor='{}'/>
+        <input value='#FFFFFF' data-jscolor='{}'/>
       </div>
     );
   }
